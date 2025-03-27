@@ -1,20 +1,20 @@
 import { Router } from "express";
-import { validateRequest } from "../middlewares/validationMiddleware";
-import {
-  allPropQuerySchema,
-  propertySchema,
-  propertyUpdateSchema,
-} from "../schemas/propertySchema";
-import authMiddleware from "../middlewares/authMiddleware";
-import {
-  getAllProperties,
-  getPropertyById,
-  createAproperty,
-  updateProperty,
-  deleteProperty,
-} from "../controllers/properties.controller";
-import { asyncHandler } from "../middlewares/asynMiddleware";
-import { validateUserIdSchema } from "../schemas/userSchema";
+// import { validateRequest } from "../middlewares/validationMiddleware";
+// import {
+//   allPropQuerySchema,
+//   propertySchema,
+//   propertyUpdateSchema,
+// } from "../schemas/propertySchema";
+// import authMiddleware from "../middlewares/authMiddleware";
+// import {
+//   getAllProperties,
+//   getPropertyById,
+//   createAproperty,
+//   updateProperty,
+//   deleteProperty,
+// } from "../controllers/properties.controller";
+// import { asyncHandler } from "../middlewares/asynMiddleware";
+// import { validateUserIdSchema } from "../schemas/userSchema";
 
 export const propertyRouter = Router();
 
